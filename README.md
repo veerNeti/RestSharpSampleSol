@@ -9,3 +9,10 @@
 ``livingdoc.exe  .\FeatureData.json --title "" ``
 
 ``https://youtu.be/DFboLqyBO0A?t=1442``
+
+- TechTalk.SpecFlow.Assist 
+- DataTable with out Modal
+  - dynamic credentials = table.CreateDynamicInstance()
+ - DataTable with Modal
+  - table.CreateInstance()
+  - table.CreateSet();
