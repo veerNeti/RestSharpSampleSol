@@ -1,21 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Newtonsoft.Json;
 
 namespace RestSharp_Demo.Model
 {
     public class Data
     {
-        public int Id { get; set; }
-        public string Email { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Avatar { get; set; }
+        [JsonProperty("id")]
+        public int Id;
 
-        public override string ToString()
-        {
-            return "\nId:\t" + Id.ToString()
-                + "\nEmail:\t" + Email.ToString() ;
-        }
+        [JsonProperty("email")]
+        public string Email;
+
+        [JsonProperty("first_name")]
+        public string FirstName;
+
+        [JsonProperty("last_name")]
+        public string LastName;
+
+        [JsonProperty("avatar")]
+        public string Avatar;
     }
 }

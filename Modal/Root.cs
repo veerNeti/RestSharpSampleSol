@@ -2,17 +2,30 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace RestSharp_Demo.Model
 {
-    public class Support
+    public class Root
     {
-        public string Url { get; set; }
-        public string Text { get; set; }
+        [JsonProperty("page")]
+        public int Page;
 
-        public override string ToString()
-        {
-            return "\nUrl: " + Url.ToString() + "\n Text:" + Text.ToString();
-        }
+        [JsonProperty("per_page")]
+        public int PerPage;
+
+        [JsonProperty("total")]
+        public int Total;
+
+        [JsonProperty("total_pages")]
+        public int TotalPages;
+
+        [JsonProperty("data")]
+        public List<Data> Data;
+
+        [JsonProperty("support")]
+        public Support Support;
     }
+
+
 }
