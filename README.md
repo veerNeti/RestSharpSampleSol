@@ -9,7 +9,7 @@
 - TechTalk.SpecFlow.Assist 
 - DataTable with out Modal
   - dynamic credentials = table.CreateDynamicInstance()
- - DataTable with Modal
+- DataTable with Modal
   - table.CreateInstance()
   - table.CreateSet();
 
