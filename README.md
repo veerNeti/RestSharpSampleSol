@@ -20,3 +20,4 @@
 - For More information on RestSharp:
   - https://restsharp.dev/getting-started/getting-started.html
   - https://github.com/mcintyre321/RestSharp-.NET-2.0-Fork
+  - [https://github.com/marcusoftnet/SpecFlow.Assist.Dynamic/wiki]
