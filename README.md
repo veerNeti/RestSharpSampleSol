@@ -24,3 +24,6 @@
 
 - CreateDynamicInstance()
 'https://github.com/marcusoftnet/SpecFlow.Assist.Dynamic/wiki/Conversion-conventions#property-type-conversions'
+
+[https://docs.specflow.org/projects/specflow/en/latest/Bindings/SpecFlow-Assist-Helpers.html](Usage of DataTable)
+
